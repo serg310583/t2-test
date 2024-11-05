@@ -1,0 +1,18 @@
+@import './../../style/variables';
+
+.locationTitle {
+  margin-left: 9px;
+  margin-right: 32px;
+  color: $gray;
+}
+.locationWrapper {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+  .locationTitle {
+    font-size: 16px;
+  }
+}

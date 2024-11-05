@@ -1,0 +1,39 @@
+@import './../../style/variables';
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 162px;
+  width: 100%;
+  height: 40px;
+  background-color: #1f2229;
+}
+.logoImg {
+  cursor: pointer;
+}
+.infoPanel {
+  display: flex;
+  align-items: center;
+}
+.locationInfo {
+  display: block;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+  .headerWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 18px;
+  }
+  .infoPanel {
+    width: 63px;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .locationInfo {
+    display: none;
+  }
+}

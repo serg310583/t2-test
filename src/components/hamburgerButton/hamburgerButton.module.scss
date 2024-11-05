@@ -1,0 +1,11 @@
+.hamburgerButtonWrapper {
+  display: none;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+  .hamburgerButtonWrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+}

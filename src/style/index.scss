@@ -1,0 +1,36 @@
+@import 'variables';
+@import 'reset';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  //font
+  font-family: $font-family-primary;
+  font-style: $font-weight-normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+h1 {
+  font-size: 36px;
+}
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+  h1 {
+    font-size: 24px;
+  }
+}

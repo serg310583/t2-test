@@ -1,0 +1,16 @@
+.bellIndicatorWrapper {
+  display: flex;
+  align-items: center;
+  width: 27px;
+  height: 27px;
+  position: relative;
+  cursor: pointer;
+  .bell {
+    position: absolute;
+  }
+  .indicator {
+    position: absolute;
+    top: 4px;
+    right: 12px;
+  }
+}
